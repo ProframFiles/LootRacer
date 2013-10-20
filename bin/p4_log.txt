@@ -1,0 +1,292 @@
+INFO:     Creating GL context
+DEBUG:    192 = GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS
+DEBUG:    16 = GL_MAX_VERTEX_ATTRIBS
+DEBUG:    8 = GL_MAX_TEXTURE_COORDS
+DEBUG:    32 = GL_MAX_TEXTURE_IMAGE_UNITS
+DEBUG:    2048 = GL_MAX_FRAGMENT_UNIFORM_COMPONENTS
+DEBUG:    4096 = GL_MAX_VERTEX_UNIFORM_COMPONENTS
+DEBUG:    124 = GL_MAX_VARYING_FLOATS
+DEBUG:    32 = GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS
+DEBUG:    16384 = GL_MAX_CUBE_MAP_TEXTURE_SIZE
+INFO:     Creating Application
+INFO:     Initializing audio
+INFO:     Loading Shaders
+DEBUG:    Loading shader "text shader" from files
+INFO:     Succeeded: Compilation of shader ../shaders/text_shader.frag.
+INFO:     Succeeded: Compilation of shader ../shaders/text_shader.vert.
+INFO:     Succeeded: Linking of shader.
+DEBUG:    Loading shader "test" from files
+INFO:     Succeeded: Compilation of shader ../shaders/default_object.frag.
+INFO:     Succeeded: Compilation of shader ../shaders/default_object.vert.
+INFO:     Succeeded: Linking of shader.
+DEBUG:    Loading shader "base plane shader" from files
+INFO:     Succeeded: Compilation of shader ../shaders/default_object.frag.
+INFO:     Succeeded: Compilation of shader ../shaders/base_plane.vert.
+INFO:     Succeeded: Linking of shader.
+DEBUG:    Loading shader "decal shader" from files
+INFO:     Succeeded: Compilation of shader ../shaders/decal_shader.frag.
+INFO:     Succeeded: Compilation of shader ../shaders/decal_shader.vert.
+INFO:     Succeeded: Linking of shader.
+INFO:     Loading Meshes
+DEBUG:    constructing vertex array BasePlane
+DEBUG:    Loaded object "BasePlane" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array Tube001
+DEBUG:    Loaded object "Tube001" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array Spindle001
+DEBUG:    Loaded object "Spindle001" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array GeoSphere001
+DEBUG:    Loaded object "GeoSphere001" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array Box001
+DEBUG:    Loaded object "Box001" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array Pyramid001
+DEBUG:    Loaded object "Pyramid001" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array Tube002
+DEBUG:    Loaded object "Tube002" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array StarSphere
+DEBUG:    Loaded object "StarSphere" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array GeoSphere003
+DEBUG:    Loaded object "GeoSphere003" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array Box002
+DEBUG:    Loaded object "Box002" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array WestFence
+DEBUG:    Loaded object "WestFence" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array SouthFence
+DEBUG:    Loaded object "SouthFence" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array EastFence
+DEBUG:    Loaded object "EastFence" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array NorthFence
+DEBUG:    Loaded object "NorthFence" from file ../geometry/level_base.obj
+DEBUG:    constructing vertex array DynamicHedra
+DEBUG:    Loaded object "DynamicHedra" from file ../geometry/dynamicHedra.obj
+DEBUG:    constructing vertex array Square
+DEBUG:    Loaded object "Square" from file ../geometry/square.obj
+INFO:     Loading Textures
+DEBUG:    Loading texture "default dm" from file ../textures/gray128.tga
+INFO:     loading image ../textures/gray128.tga 
+INFO:     Size = 128x128, channels = 4
+INFO:     done
+DEBUG:    Loading texture "default nm" from file ../textures/default_nm.tga
+INFO:     loading image ../textures/default_nm.tga 
+INFO:     Size = 128x128, channels = 4
+INFO:     done
+DEBUG:    Loading texture "default lm" from file ../textures/default_lm.tga
+INFO:     loading image ../textures/default_lm.tga 
+INFO:     Size = 64x64, channels = 4
+INFO:     done
+DEBUG:    Loading texture "Profile" from file ../textures/gradient_text.tga
+INFO:     loading image ../textures/gradient_text.tga 
+INFO:     Size = 256x8, channels = 3
+INFO:     done
+DEBUG:    Loading texture "Font" from file ../fonts/DroidSansMono.sdf_font.png
+INFO:     loading image ../fonts/DroidSansMono.sdf_font.png 
+INFO:     Size = 1024x1024, channels = 3
+INFO:     done
+DEBUG:    Loading texture "base dm" from file ../textures/unstable_weave__dm.tga
+INFO:     loading image ../textures/unstable_weave__dm.tga 
+INFO:     Size = 1024x1024, channels = 4
+INFO:     done
+DEBUG:    Loading texture "base nm" from file ../textures/unstable_weave__nm.tga
+INFO:     loading image ../textures/unstable_weave__nm.tga 
+INFO:     Size = 1024x1024, channels = 4
+INFO:     done
+DEBUG:    Loading texture "base lm" from file ../textures/unstable_weave__lm.tga
+INFO:     loading image ../textures/unstable_weave__lm.tga 
+INFO:     Size = 1024x1024, channels = 4
+INFO:     done
+DEBUG:    Loading texture "clay dm" from file ../textures/clay__dm.tga
+INFO:     loading image ../textures/clay__dm.tga 
+INFO:     Size = 1024x1024, channels = 4
+INFO:     done
+DEBUG:    Loading texture "clay nm" from file ../textures/clay__nm.tga
+INFO:     loading image ../textures/clay__nm.tga 
+INFO:     Size = 1024x1024, channels = 4
+INFO:     done
+DEBUG:    Loading texture "clay lm" from file ../textures/clay__lm.tga
+INFO:     loading image ../textures/clay__lm.tga 
+INFO:     Size = 1024x1024, channels = 4
+INFO:     done
+DEBUG:    Loading texture "cyberglow dm" from file ../textures/blocky__dm.tga
+INFO:     loading image ../textures/blocky__dm.tga 
+INFO:     Size = 600x600, channels = 4
+INFO:     done
+DEBUG:    Loading texture "cyberglow nm" from file ../textures/blocky__nm.tga
+INFO:     loading image ../textures/blocky__nm.tga 
+INFO:     Size = 600x600, channels = 4
+INFO:     done
+DEBUG:    Loading texture "cyberglow lm" from file ../textures/blocky__lm.tga
+INFO:     loading image ../textures/blocky__lm.tga 
+INFO:     Size = 600x600, channels = 4
+INFO:     done
+DEBUG:    Loading texture "candyswirl dm" from file ../textures/candy_swirl__dm.tga
+INFO:     loading image ../textures/candy_swirl__dm.tga 
+INFO:     Size = 1024x1024, channels = 4
+INFO:     done
+DEBUG:    Loading texture "candyswirl nm" from file ../textures/candy_swirl__nm.tga
+INFO:     loading image ../textures/candy_swirl__nm.tga 
+INFO:     Size = 1024x1024, channels = 4
+INFO:     done
+DEBUG:    Loading texture "candyswirl lm" from file ../textures/candy_swirl__lm.tga
+INFO:     loading image ../textures/candy_swirl__lm.tga 
+INFO:     Size = 1024x1024, channels = 4
+INFO:     done
+DEBUG:    Loading texture "metal storm dm" from file ../textures/metal_storm__dm.tga
+INFO:     loading image ../textures/metal_storm__dm.tga 
+INFO:     Size = 512x512, channels = 4
+INFO:     done
+DEBUG:    Loading texture "metal storm nm" from file ../textures/metal_storm__nm.tga
+INFO:     loading image ../textures/metal_storm__nm.tga 
+INFO:     Size = 512x512, channels = 4
+INFO:     done
+DEBUG:    Loading texture "metal storm lm" from file ../textures/metal_storm__lm.tga
+INFO:     loading image ../textures/metal_storm__lm.tga 
+INFO:     Size = 512x512, channels = 4
+INFO:     done
+DEBUG:    Loading texture "fence dm" from file ../textures/fence__dm.tga
+INFO:     loading image ../textures/fence__dm.tga 
+INFO:     Size = 512x512, channels = 4
+INFO:     done
+DEBUG:    Loading texture "fence nm" from file ../textures/fence__nm.tga
+INFO:     loading image ../textures/fence__nm.tga 
+INFO:     Size = 512x512, channels = 4
+INFO:     done
+DEBUG:    Loading texture "fence lm" from file ../textures/fence__lm.tga
+INFO:     loading image ../textures/fence__lm.tga 
+INFO:     Size = 512x512, channels = 4
+INFO:     done
+DEBUG:    Loading texture "gouged scarred dm" from file ../textures/gouged_scarred__dm.tga
+INFO:     loading image ../textures/gouged_scarred__dm.tga 
+INFO:     Size = 512x512, channels = 4
+INFO:     done
+DEBUG:    Loading texture "gouged scarred nm" from file ../textures/gouged_scarred__nm.tga
+INFO:     loading image ../textures/gouged_scarred__nm.tga 
+INFO:     Size = 512x512, channels = 4
+INFO:     done
+DEBUG:    Loading texture "arrow decal shape" from file ../textures/arrow_out_small.png
+INFO:     loading image ../textures/arrow_out_small.png 
+INFO:     Size = 256x256, channels = 3
+INFO:     done
+DEBUG:    Loading texture "gouged scarred lm" from file ../textures/gouged_scarred__lm.tga
+INFO:     loading image ../textures/gouged_scarred__lm.tga 
+INFO:     Size = 512x512, channels = 4
+INFO:     done
+DEBUG:    Loading texture "arrow decal profile" from file ../textures/gradient_arrow.tga
+INFO:     loading image ../textures/gradient_arrow.tga 
+INFO:     Size = 256x8, channels = 3
+INFO:     done
+DEBUG:    Loading texture "sun decal shape" from file ../textures/sun_out_small.png
+INFO:     loading image ../textures/sun_out_small.png 
+INFO:     Size = 1024x1024, channels = 3
+INFO:     done
+DEBUG:    Loading texture "loot high" from file ../textures/gradient_sun.tga
+INFO:     loading image ../textures/gradient_sun.tga 
+INFO:     Size = 256x8, channels = 3
+INFO:     done
+DEBUG:    Loading texture "loot low" from file ../textures/gradient_low.tga
+INFO:     loading image ../textures/gradient_low.tga 
+INFO:     Size = 256x8, channels = 3
+INFO:     done
+DEBUG:    Loading texture "loot medium" from file ../textures/gradient_sun.tga
+DEBUG:    File ../textures/gradient_sun.tga is already loaded, retrieving
+DEBUG:    font width = 1024, height = 1024
+INFO:     Assembling static objects
+DEBUG:    Constructed drawable using mesh "BasePlane" in VBO "object buffer: Static assets"
+DEBUG:    ...with 32768 triangles, starting at index 512 in the VBO
+DEBUG:    Constructed drawable using mesh "EastFence" in VBO "object buffer: Static assets"
+DEBUG:    ...with 256 triangles, starting at index 41328 in the VBO
+DEBUG:    Constructed drawable using mesh "WestFence" in VBO "object buffer: Static assets"
+DEBUG:    ...with 256 triangles, starting at index 40816 in the VBO
+DEBUG:    Constructed drawable using mesh "NorthFence" in VBO "object buffer: Static assets"
+DEBUG:    ...with 256 triangles, starting at index 34644 in the VBO
+DEBUG:    Constructed drawable using mesh "SouthFence" in VBO "object buffer: Static assets"
+DEBUG:    ...with 256 triangles, starting at index 41072 in the VBO
+DEBUG:    Constructed drawable using mesh "Pyramid001" in VBO "object buffer: Static assets"
+DEBUG:    ...with 8 triangles, starting at index 34900 in the VBO
+DEBUG:    Constructed drawable using mesh "Tube001" in VBO "object buffer: Static assets"
+DEBUG:    ...with 512 triangles, starting at index 0 in the VBO
+DEBUG:    Constructed drawable using mesh "Spindle001" in VBO "object buffer: Static assets"
+DEBUG:    ...with 532 triangles, starting at index 33280 in the VBO
+DEBUG:    Constructed drawable using mesh "Tube002" in VBO "object buffer: Static assets"
+DEBUG:    ...with 5544 triangles, starting at index 35228 in the VBO
+DEBUG:    Constructed drawable using mesh "GeoSphere001" in VBO "object buffer: Static assets"
+DEBUG:    ...with 500 triangles, starting at index 34144 in the VBO
+DEBUG:    Constructed drawable using mesh "GeoSphere003" in VBO "object buffer: Static assets"
+DEBUG:    ...with 320 triangles, starting at index 34908 in the VBO
+DEBUG:    Constructed drawable using mesh "Box001" in VBO "object buffer: Static assets"
+DEBUG:    ...with 12 triangles, starting at index 33812 in the VBO
+DEBUG:    Constructed drawable using mesh "Box002" in VBO "object buffer: Static assets"
+DEBUG:    ...with 12 triangles, starting at index 40772 in the VBO
+DEBUG:    Constructed drawable using mesh "StarSphere" in VBO "object buffer: Static assets"
+DEBUG:    ...with 320 triangles, starting at index 33824 in the VBO
+DEBUG:    Constructed drawable using mesh "Square" in VBO "object buffer: Static assets"
+DEBUG:    ...with 32 triangles, starting at index 40784 in the VBO
+DEBUG:    Constructed drawable using mesh "Square" in VBO "object buffer: Static assets"
+DEBUG:    ...with 32 triangles, starting at index 40784 in the VBO
+DEBUG:    Constructed drawable using mesh "Square" in VBO "object buffer: Static assets"
+DEBUG:    ...with 32 triangles, starting at index 40784 in the VBO
+INFO:     Creating Nav Mesh
+INFO:     making the ground plane from 32768 triangles
+INFO:     creating BSP for mesh "Box001"
+INFO:     Finished BSP creation: 6 nodes (1kB), max depth = 5, splits = 0
+INFO:     creating BSP for mesh "Tube001"
+INFO:     Finished BSP creation: 130 nodes (15kB), max depth = 129, splits = 0
+INFO:     creating BSP for mesh "StarSphere"
+INFO:     Finished BSP creation: 320 nodes (35kB), max depth = 319, splits = 0
+INFO:     creating BSP for mesh "GeoSphere003"
+INFO:     Finished BSP creation: 320 nodes (35kB), max depth = 319, splits = 0
+INFO:     creating BSP for mesh "Box002"
+INFO:     Finished BSP creation: 6 nodes (1kB), max depth = 5, splits = 0
+INFO:     creating BSP for mesh "Pyramid001"
+INFO:     Finished BSP creation: 5 nodes (1kB), max depth = 4, splits = 0
+INFO:     creating BSP for mesh "Tube002"
+INFO:     Finished BSP creation: 86 nodes (10kB), max depth = 85, splits = 0
+INFO:     creating BSP for mesh "GeoSphere001"
+INFO:     Finished BSP creation: 500 nodes (55kB), max depth = 499, splits = 0
+INFO:     creating BSP for mesh "Spindle001"
+INFO:     Finished BSP creation: 57 nodes (7kB), max depth = 56, splits = 0
+INFO:     Running Application
+DEBUG:    app lost mouse focus 
+DEBUG:    app gained mouse focus 
+DEBUG:    key 'space' pressed
+DEBUG:    key 'space' releassed
+DEBUG:    key 'space' pressed
+DEBUG:    key 'space' releassed
+DEBUG:    key 'w' pressed
+DEBUG:    Still underground, teleporting to 11.4093,  v = (29.8381, 5.55144, 10.1274)
+DEBUG:    Still underground, teleporting to 11.6396,  v = (29.9389, 6.09188, 9.98107)
+DEBUG:    Crossed A boundary plane last frame, p = (18.3956, 11.8629, 9.15459)
+DEBUG:    last pos = (17.8927, 11.7497, 8.99173), v = (30.1729, 6.79421, 9.77153)
+DEBUG:    Now reflecting velocity to (25.468, 19.6624, 4.10147), pos = (18.82, 12.1906, 9.22295)
+
+DEBUG:    Still underground, teleporting to 12.2956,  v = (25.468, 19.6624, 4.10147)
+DEBUG:    key 'w' releassed
+DEBUG:    key 's' pressed
+DEBUG:    Still underground, teleporting to 17.7792,  v = (20.9811, 2.32726, 10.5936)
+DEBUG:    Crossed A boundary plane last frame, p = (28.0382, 17.8915, 12.1583)
+DEBUG:    last pos = (27.6542, 17.8312, 11.9644), v = (23.0406, 3.61877, 11.6339)
+DEBUG:    Now reflecting velocity to (14.9055, 21.3276, 1.50656), pos = (28.2866, 18.2469, 12.1834)
+
+DEBUG:    Still underground, teleporting to 18.3639,  v = (14.9055, 21.3276, 1.50656)
+DEBUG:    key 's' releassed
+DEBUG:    key 'w' pressed
+DEBUG:    key 'w' releassed
+DEBUG:    Still underground, teleporting to 10.2268,  v = (-6.08984, -2.37015, -2.48428)
+DEBUG:    Also reflecting velocity to (-6.08984, 2.37015, -2.48428)
+DEBUG:    key 'escape' pressed
+DEBUG:    Application is done!
+DEBUG:    destroying vertex array Tube001
+DEBUG:    destroying vertex array BasePlane
+DEBUG:    destroying vertex array Spindle001
+DEBUG:    destroying vertex array Box001
+DEBUG:    destroying vertex array StarSphere
+DEBUG:    destroying vertex array GeoSphere001
+DEBUG:    destroying vertex array NorthFence
+DEBUG:    destroying vertex array Pyramid001
+DEBUG:    destroying vertex array GeoSphere003
+DEBUG:    destroying vertex array Tube002
+DEBUG:    destroying vertex array Box002
+DEBUG:    destroying vertex array Square
+DEBUG:    destroying vertex array WestFence
+DEBUG:    destroying vertex array SouthFence
+DEBUG:    destroying vertex array EastFence
+DEBUG:    destroying vertex array DynamicHedra
+DEBUG:    About to call SDL_Quit

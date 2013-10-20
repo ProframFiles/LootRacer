@@ -1,0 +1,9 @@
+http://www.gamedev.net/page/resources/_/technical/game-programming/practical-collision-detection-r736
+http://www.stroustrup.com/C++11FAQ.html#variadic-templates
+http://stackoverflow.com/questions/3740905/what-is-gl-modelviewmatrix-and-gl-modelviewprojectionmatrix-in-modern-opengl
+http://www.opengl.org/wiki/GLAPI/glVertexAttribPointer
+http://cgm.cs.mcgill.ca/~orm/cslines.html
+http://web.cs.wpi.edu/~matt/courses/cs563/talks/bsp/bsp.html
+http://www.gamedev.net/topic/516608-finding-closest-point-on-tri-to-point/
+http://www.gamedev.net/topic/552906-closest-point-on-triangle/
+http://www.terathon.com/code/tangent.html

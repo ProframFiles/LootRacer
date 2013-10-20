@@ -1,0 +1,36 @@
+package sdff;
+
+message akjFont {
+	optional string fontName = 1;
+	optional string fontFileName = 2;
+	optional int32 texWidth = 3;
+	optional int32 texHeight = 4;
+	optional sint32	offset = 5;
+	optional float scaleFactor = 6;
+
+	message charData {
+		required int32 ID = 1;
+		required int32 indx = 2;
+		required float xOffset = 3;
+		required float yOffset = 4;
+		required float xAdvance = 5; }
+
+	repeated charData chars = 7;
+
+	message vertexData{
+		required float xPos = 1;
+		required float yPos = 2;
+		required float width = 3;
+		required float height = 4; }
+
+	repeated vertexData vertices = 8;
+
+	message kernData{
+		optional float x = 1;
+		optional float y = 2;
+		optional int32 a = 3;
+		optional int32 b = 4; }
+
+	repeated kernData kernPairs = 9;
+	optional bytes ddsData = 10; 
+	optional bytes fontFileData = 11; }

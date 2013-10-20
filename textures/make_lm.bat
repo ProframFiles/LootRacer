@@ -1,0 +1,3 @@
+convert %1_ao.tga -set colorspace RGB -channel R -separate %1_ro.tga -set colorspace RGB -channel R -separate %1_ss.tga -set colorspace RGB -channel R -separate %1_mm.tga -set colorspace RGB -channel R -separate -channel RGBA -combine %1__lm.tga
+convert %1_nm.tga -set colorspace RGB -channel R -separate %1_nm.tga -set colorspace RGB -channel G -separate %1_nm.tga -set colorspace RGB -channel B -separate %1_bm.tga -set colorspace RGB -channel R -separate -channel RGBA -combine %1__nm.tga
+convert %1_dm.tga -channel R -separate %1_dm.tga -channel G -separate %1_dm.tga -channel B -separate %1_am.tga -set colorspace RGB -channel R -separate -channel RGBA -combine %1__dm.tga
