@@ -6,7 +6,7 @@ The shiny things are mostly in midair, and you need to speed off of ramps and po
 
 ### Why? ###
 
-The final project for my computer graphics course @ UBC http://www.ugrad.cs.ubc.ca/~cs314/Vjan2013/. 
+The final project for my computer graphics course @ UBC http://www.ugrad.cs.ubc.ca/~cs314/Vjan2013/p4hof/#aleksy . 
 Also as a practice exercise in writing an application engine and resource loading pipeline.
 
 
